@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Search Web" />
+  <meta name="keywords" content="ashen m. gunaratne freecodecamp projects api" />
+  <meta name="author" content="Ashen Gunaratne" />
+  <title>A Custom Search Engine</title>
+  <style type="text/css">
+
+    body {
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      border-bottom: 1px solid #eaecef;
+    }
+
+    a,
+    a:hover {
+      color: #000;
+      text-decoration: none;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .container {
+      width: 100%;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-family: "Segoe UI", "Helvetica", "Arial";
+    }
+
+    .d-inline {
+      display: inline;
+    }
+
+    .mt-0 {
+      margin-top: 0px;
+    }
+
+    .mb-0 {
+      margin-bottom: 0px;
+    }
+
+    .text-muted {
+      color: #666;
+    }
+
+    .text-muted:hover {
+      color: #555;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="mt-0 mb-0">A Custom Search Engine</h1>
+      <h4 class="mt-0 mb-0 text-muted">A <a href="//freecodecamp.org/" class="text-muted" rel="nofollow">freeCodeCamp</a> API Project</h4>
+    </header>
+    <main>
+      <h2>Endpoints</h2>
+      <ul>
+        <li>
+          <h3 class="mb-0">Web Search</h3>
+          <h4 class="d-inline mt-0">/web</h4>
+          <p class="d-inline">Endpoint for webpage searching</p>
+        </li>
+        <li>
+          <h3 class="mb-0">Image Search</h3>
+          <h4 class="d-inline mt-0">/images</h4>
+          <p class="d-inline">Endpoint for image searching</p>
+        </li>
+      </ul>
+      <h2>Usage</h2>
+      <ul>
+        <li>
+          <h3 class="mb-0">Queries</h3>
+          <h4 class="d-inline mt-0">/<em class="text-muted">:endpoint</em>?q=<em class="text-muted">:query</em></h4>
+        </li>
+        <li>
+          <h3 class="mb-0">Pagination</h3>
+          <h4 class="d-inline mt-0">/<em class="text-muted">:endpoint</em>?q=<em class="text-muted">:query</em>&offset=<em class="text-muted">:offset</em></h4>
+        </li>
+        <li>
+          <h3 class="mb-0">Recent Queries</h3>
+          <h4 class="d-inline mt-0">/<em class="text-muted">:endpoint</em></h4>
+        </li>
+      </ul>
+    </main>
+    <footer>
+    </footer>
+  </div>
+</body>
+</html>
